@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Sparkles, Heart } from 'lucide-react';
+import { Mail, Sparkles } from 'lucide-react';
 
 const Footer = () => {
   return (

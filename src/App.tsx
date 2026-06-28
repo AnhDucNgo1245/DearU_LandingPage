@@ -1,9 +1,9 @@
 import { ReactLenis } from "lenis/react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import FeatureSpotlight from "./components/FeatureSpotlight";
-import HowItWorks from "./components/HowItWorks";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.tsx";
+import Hero from "./components/Hero.tsx";
+import FeatureSpotlight from "./components/FeatureSpotlight.tsx";
+import HowItWorks from "./components/HowItWorks.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (

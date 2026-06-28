@@ -9,8 +9,6 @@ const Hero = () => {
     offset: ["start start", "end start"],
   });
 
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const yElements = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
   const yFast = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
 
   return (
